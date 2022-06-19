@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.pages.OnBoardingFragment">
-
+    tools:context=".views.pages.OnBoardingFragment"
+    android:fitsSystemWindows="true"
+    >
 
     <ImageView
         android:layout_width="match_parent"
@@ -12,6 +13,59 @@
         android:scaleType="centerCrop"
         android:src="@drawable/onboarding_bg"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_onboarding_carrot"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome\nto our store"
+            android:textColor="@color/white"
+            android:fontFamily="@font/gilroy_semibold"
+            android:textSize="@dimen/_48ssp"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get your groceries in as fast as one hour"
+            android:textColor="#80FCFCFC"
+            android:fontFamily="@font/gilroy_medium"
+            android:textSize="@dimen/_12ssp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:maxLines="1"
+            android:gravity="center"
+            />
+
+
+        <com.moashrafff.nectar.views.widgets.MainButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:text="Get Started"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            />
+
+    </LinearLayout>
 
 
 
