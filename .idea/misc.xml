@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/google_icon.xml" value="0.1365" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/ic_white_right_arrow.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/social_btn_shape.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/activity_main.xml" value="0.228125" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_number_registration.xml" value="0.2421875" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_on_boarding.xml" value="0.2" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_splash.xml" value="0.228125" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/tool_bar.xml" value="0.24114583333333334" />
       </map>
     </option>
   </component>

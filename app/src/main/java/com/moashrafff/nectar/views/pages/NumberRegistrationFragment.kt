@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import com.moashrafff.nectar.R
 
 
-class LoginFragment : Fragment() {
-
+class NumberRegistrationFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -18,5 +17,6 @@ class LoginFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_number_registration, container, false)
     }
+
 
 }
