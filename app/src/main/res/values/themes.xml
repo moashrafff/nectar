@@ -14,4 +14,11 @@
         <!-- Customize your theme here. -->
         <item name="android:windowFullscreen">true</item>
     </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="colorAccent">#B3B3B3</item>
+        <item name="boxStrokeColor">#53B175</item>
+        <item name="boxStrokeWidth">1dp</item>
+
+    </style>
 </resources>
