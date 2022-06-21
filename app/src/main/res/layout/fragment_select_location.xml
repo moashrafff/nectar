@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.pages.SelectLocationFragment">
+
+
+    <include
+        android:id="@+id/location_tool_bar"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/location_tool_bar"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/illustration_location"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Your Location"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textSize="@dimen/_21ssp"
+            android:textColor="#181725"
+            android:fontFamily="@font/gilroy_semibold"
+            />
+        <TextView
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Swithch on your location to stay in tune with\nwhat’s happening in your area"
+            android:gravity="center"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp"
+            android:layout_below="@+id/number_tool_bar"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        >
+
+        <TextView
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Your Zone"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp"
+            android:layout_below="@+id/number_tool_bar"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Your Area"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp"
+            android:layout_below="@+id/number_tool_bar"
+            android:layout_marginBottom="@dimen/_5sdp"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            />
+
+        <com.moashrafff.nectar.views.widgets.MainButton
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:text="Submit"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/gilroy_semibold"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

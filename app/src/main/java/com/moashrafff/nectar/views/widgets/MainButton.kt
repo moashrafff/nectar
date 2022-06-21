@@ -20,7 +20,7 @@ class MainButton : AppCompatButton {
         isAllCaps = false
         gravity = 0x11
         typeface = ResourcesCompat.getFont(context, R.font.gilroy_semibold)
-        background = getDrawable(context.getColor(R.color.main_color),30f)
+        background = getDrawable(context.getColor(R.color.main_color),25f)
 
     }
 
