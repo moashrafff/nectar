@@ -26,7 +26,7 @@ class OnBoardingFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         _binding?.getStartedBtn?.setOnClickListener(View.OnClickListener {
 
-            showFragment(LoginFragment())
+            showFragment(ProductDetailsFragment())
 
         })
     }

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.pages.CartFragment">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/cart_tool_bar"
+        />
+
+    <View
+        android:id="@+id/cart_v1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginBottom="٠dp"
+        android:background="#70E2E2E2"
+        android:layout_below="@+id/cart_tool_bar"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/check_layout"
+        android:layout_below="@+id/cart_v1"
+        android:layout_marginTop="٠dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/cart_item" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:id="@+id/check_layout"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/check_cart_tv_shape"
+            android:fontFamily="@font/gilroy_semibold"
+            android:gravity="center"
+            android:text="Go to Checkout"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:id="@+id/check_btn"
+            />
+
+        <TextView
+            android:id="@+id/cart_price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cart_price_tb_shape"
+            android:textColor="@color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:gravity="center"
+            android:text="$12.96"
+            android:padding="@dimen/_5sdp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

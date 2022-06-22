@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.moashrafff.nectar.R
 
 
-class LoginFragment : Fragment() {
+class CartFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,8 +16,7 @@ class LoginFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
+        return inflater.inflate(R.layout.fragment_cart, container, false)
     }
-
 
 }

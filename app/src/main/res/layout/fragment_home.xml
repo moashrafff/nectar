@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.pages.HomeFragment">
+
+    <ImageView
+        android:id="@+id/top_carrot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:src="@drawable/ic_carrot_icon" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_carrot"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_17sdp"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <LinearLayout
+                android:id="@+id/location_layou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:src="@drawable/ic_location_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Cairo,Egypt"
+                    android:textColor="#4C4F4D"
+                    android:textSize="@dimen/_16ssp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:layout_below="@+id/location_layou"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/search_shap"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingHorizontal="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_search_icon" />
+
+                <TextView
+                    android:id="@+id/tvSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/search_shap"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:gravity="center_vertical"
+                    android:hint="Serach Store..."
+                    android:maxLines="1"
+                    android:textColorHint="#7C7C7C"
+                    android:textSize="@dimen/_12ssp" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/execlusive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_marginVertical="@dimen/_15sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:text="Exclusive Offer"
+                    android:textColor="#181725"
+                    android:textSize="@dimen/_21ssp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/e_o_see_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:text="See More"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/_12ssp"
+
+                    />
+
+            </RelativeLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/execlusive_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/execlusive"
+                android:clipToPadding="false" />
+
+            <RelativeLayout
+                android:id="@+id/best_selling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/execlusive_rv"
+                android:layout_marginVertical="@dimen/_15sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:text="Best Selling"
+                    android:textColor="#181725"
+                    android:textSize="@dimen/_21ssp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/b_s_see_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:text="See More"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/_12ssp"
+
+                    />
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/b_s_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/best_selling"
+                android:clipToPadding="false" />
+
+
+            <RelativeLayout
+                android:id="@+id/grocories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b_s_rv"
+                android:layout_marginVertical="@dimen/_15sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:text="Groceries"
+                    android:textColor="#181725"
+                    android:textSize="@dimen/_21ssp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/grocories_see_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:fontFamily="@font/gilroy_semibold"
+                    android:text="See More"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/_12ssp"
+
+                    />
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/grocories_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/grocories"
+                android:clipToPadding="false"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
