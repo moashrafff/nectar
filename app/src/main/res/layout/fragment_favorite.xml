@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.pages.FavoriteFragment">
+
+    <include layout="@layout/tool_bar"
+        android:id="@+id/favorite_tool_bar"
+        />
+
+    <View
+        android:id="@+id/fav_v1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_below="@+id/favorite_tool_bar"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginBottom="٠dp"
+        android:background="#70E2E2E2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_all_to_cart_btn"
+        android:clipToPadding="false"
+        android:layout_below="@id/fav_v1"
+        tools:listitem="@layout/fav_item"
+
+        />
+
+    <com.moashrafff.nectar.views.widgets.MainButton
+        android:id="@+id/add_all_to_cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:text="Add All To Cart"
+        android:textSize="@dimen/_13ssp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        />
+
+
+
+</RelativeLayout>

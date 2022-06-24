@@ -13,11 +13,9 @@
         android:id="@+id/cart_v1"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_2sdp"
-        android:layout_marginHorizontal="@dimen/_15sdp"
-        android:layout_marginBottom="٠dp"
-        android:background="#70E2E2E2"
         android:layout_below="@+id/cart_tool_bar"
-        />
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="#70E2E2E2" />
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -25,7 +23,6 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/check_layout"
         android:layout_below="@+id/cart_v1"
-        android:layout_marginTop="٠dp"
         android:clipToPadding="false"
         tools:listitem="@layout/cart_item" />
 
@@ -64,7 +61,6 @@
             android:gravity="center"
             android:text="$12.96"
             android:padding="@dimen/_5sdp"
-
             />
 
 
