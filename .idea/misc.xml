@@ -12,6 +12,7 @@
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/google_icon.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/ic_auth_bg.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/ic_white_right_arrow.xml" value="0.1365" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/log_out_shape.xml" value="0.1475" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/quantity_shape.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/relative_shape.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/search_shap.xml" value="0.1365" />
@@ -19,6 +20,7 @@
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/drawable/social_btn_shape.xml" value="0.1365" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/activity_main.xml" value="0.228125" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/cart_item.xml" value="0.264" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/checkout_bottom_sheet.xml" value="0.23007246376811594" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/explore_item.xml" value="0.4" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fav_item.xml" value="0.4" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_cart.xml" value="0.264" />
@@ -33,6 +35,7 @@
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_on_boarding.xml" value="0.2" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_order_accepted.xml" value="0.23007246376811594" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_product_details.xml" value="0.2" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_search.xml" value="0.264" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_select_location.xml" value="0.2" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/fragment_sign_up.xml" value="0.2421875" />
@@ -42,6 +45,7 @@
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/order_failed_dialog.xml" value="0.2" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/product_item.xml" value="0.2" />
         <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/layout/tool_bar.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/Technology/AndroidStudioProjects/Nectar2/app/src/main/res/menu/main_menu.xml" value="0.180859375" />
       </map>
     </option>
   </component>

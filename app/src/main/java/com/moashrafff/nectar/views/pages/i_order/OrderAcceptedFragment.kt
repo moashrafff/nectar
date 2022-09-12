@@ -1,4 +1,4 @@
-package com.moashrafff.nectar.views.pages
+package com.moashrafff.nectar.views.pages.i_order
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.moashrafff.nectar.R
 
 
-class SignUpFragment : Fragment() {
+class OrderAcceptedFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,6 @@ class SignUpFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_up, container, false)
+        return inflater.inflate(R.layout.fragment_order_accepted, container, false)
     }
-
 }

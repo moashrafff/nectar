@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.pages.SelectLocationFragment">
+    tools:context=".views.pages.i_order.SelectLocationFragment">
 
     <ImageView
         android:layout_width="match_parent"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".views.pages.ProductDetailsFragment">
+    tools:context=".views.pages.d_explore.ProductDetailsFragment">
 
 
 
@@ -162,7 +162,6 @@
                     android:layout_height="@dimen/_2sdp"
                     android:layout_marginHorizontal="@dimen/_15sdp"
                     android:background="#70E2E2E2"
-
                     />
 
                 <RelativeLayout

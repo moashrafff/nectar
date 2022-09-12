@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.pages.CategoryFragment">
+    tools:context=".views.pages.e_category.CategoryFragment">
 
     <include layout="@layout/tool_bar"
         android:id="@+id/category_tool_bar"

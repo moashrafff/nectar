@@ -1,4 +1,4 @@
-package com.moashrafff.nectar.views.pages
+package com.moashrafff.nectar.views.pages.b_Account.b_login
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.moashrafff.nectar.R
 
 
-class ExploreFragment : Fragment() {
+class LoginFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,7 @@ class ExploreFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_explore, container, false)
+        return inflater.inflate(R.layout.fragment_login, container, false)
     }
 
 

@@ -1,4 +1,4 @@
-package com.moashrafff.nectar.views.pages
+package com.moashrafff.nectar.views.pages.d_explore
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.moashrafff.nectar.R
 
-class NumberVerificationFragment : Fragment() {
+
+class ExploreFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +16,8 @@ class NumberVerificationFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_number_verification, container, false)
+        return inflater.inflate(R.layout.fragment_explore, container, false)
     }
+
 
 }

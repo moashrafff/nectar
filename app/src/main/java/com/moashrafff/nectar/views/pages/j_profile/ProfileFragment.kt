@@ -1,4 +1,4 @@
-package com.moashrafff.nectar.views.pages
+package com.moashrafff.nectar.views.pages.j_profile
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.moashrafff.nectar.R
 
 
-class CategoryFragment : Fragment() {
+class ProfileFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,8 @@ class CategoryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_category, container, false)
+        return inflater.inflate(R.layout.fragment_profile, container, false)
     }
+
 
 }

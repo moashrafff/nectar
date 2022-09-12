@@ -1,4 +1,4 @@
-package com.moashrafff.nectar.views.pages
+package com.moashrafff.nectar.views.pages.a_Intro
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

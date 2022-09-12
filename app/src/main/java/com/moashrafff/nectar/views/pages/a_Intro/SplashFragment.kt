@@ -1,11 +1,14 @@
-package com.moashrafff.nectar.views.pages
+package com.moashrafff.nectar.views.pages.a_Intro
 
+import android.opengl.Visibility
 import android.os.Bundle
 import android.os.Handler
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.moashrafff.nectar.MainActivity
 import com.moashrafff.nectar.R
 
 class SplashFragment : Fragment() {
@@ -20,6 +23,9 @@ class SplashFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        activity?.findViewById<BottomNavigationView>(R.id.bottomNavView)?.visibility = View.GONE
+
         Handler().postDelayed(Runnable {
             showFragment(OnBoardingFragment())
         },3000)

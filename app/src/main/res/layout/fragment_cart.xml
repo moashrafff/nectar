@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.pages.CartFragment">
+    tools:context=".views.pages.h_cart.CartFragment">
 
     <include layout="@layout/tool_bar"
         android:id="@+id/cart_tool_bar"
@@ -37,6 +37,7 @@
 
 
         <TextView
+            android:id="@+id/check_btn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
             android:layout_centerInParent="true"
@@ -45,9 +46,7 @@
             android:gravity="center"
             android:text="Go to Checkout"
             android:textColor="@color/white"
-            android:textSize="@dimen/_12ssp"
-            android:id="@+id/check_btn"
-            />
+            android:textSize="@dimen/_12ssp" />
 
         <TextView
             android:id="@+id/cart_price_tv"

@@ -3,21 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".views.pages.HomeFragment">
+    tools:context=".views.pages.c_Home.HomeFragment">
 
     <ImageView
         android:id="@+id/top_carrot"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/_30sdp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_15sdp"
         android:src="@drawable/ic_carrot_icon" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/top_carrot"
-
         >
 
         <RelativeLayout
@@ -69,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_search_icon" />
 
-                <TextView
+                <EditText
                     android:id="@+id/tvSearch"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -98,7 +97,7 @@
                     android:fontFamily="@font/gilroy_semibold"
                     android:text="Exclusive Offer"
                     android:textColor="#181725"
-                    android:textSize="@dimen/_21ssp"
+                    android:textSize="@dimen/_16ssp"
 
                     />
 
@@ -141,7 +140,7 @@
                     android:fontFamily="@font/gilroy_semibold"
                     android:text="Best Selling"
                     android:textColor="#181725"
-                    android:textSize="@dimen/_21ssp"
+                    android:textSize="@dimen/_16ssp"
 
                     />
 
@@ -184,7 +183,7 @@
                     android:fontFamily="@font/gilroy_semibold"
                     android:text="Groceries"
                     android:textColor="#181725"
-                    android:textSize="@dimen/_21ssp"
+                    android:textSize="@dimen/_16ssp"
 
                     />
 

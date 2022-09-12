@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_shape"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Checkout"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18ssp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:src="@drawable/ic_order_failed_close_icon" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="#70E2E2E2"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+
+        >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:text="Delivery"
+            android:fontFamily="@font/gilroy_semibold"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/proceed_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:text="Select Method"
+            android:fontFamily="@font/gilroy_semibold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <ImageView
+            android:id="@+id/proceed_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_maximize_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="#70E2E2E2"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+
+        >
+
+        <TextView
+            android:id="@+id/payment_textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:text="Payment"
+            android:fontFamily="@font/gilroy_semibold"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp"
+            />
+
+        <ImageView
+            android:id="@+id/visa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/proceed_icon2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:src="@drawable/ic_visa_icon"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/proceed_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_maximize_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="#70E2E2E2"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+
+        >
+
+        <TextView
+            android:id="@+id/ptextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Promo Code"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/pptextView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/proceed_icon3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Pick discount"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp" />
+
+        <ImageView
+            android:id="@+id/proceed_icon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_maximize_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="#70E2E2E2"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+
+        >
+
+        <TextView
+            android:id="@+id/ttextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="Total Cost"
+            android:textColor="#7C7C7C"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/total_cost_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/proceed_icon4"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:fontFamily="@font/gilroy_semibold"
+            android:text="$13.97"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp" />
+
+        <ImageView
+            android:id="@+id/proceed_icon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_maximize_icon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:background="#70E2E2E2"
+        />
+
+    <com.moashrafff.nectar.views.widgets.MainButton
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:text="Place Order"
+        android:textSize="@dimen/_13ssp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_15sdp"/>
+
+
+
+
+</LinearLayout>
