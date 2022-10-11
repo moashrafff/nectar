@@ -8,6 +8,17 @@
     android:id="@+id/container"
     >
 
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav"
+        android:layout_above="@+id/bottomNavView"
+        />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavView"
         android:layout_width="match_parent"
@@ -16,7 +27,10 @@
         app:menu="@menu/main_menu"
         android:layout_alignParentBottom="true"
         app:itemIconSize="@dimen/_25sdp"
-        />
+        android:visibility="visible"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 
 </RelativeLayout>
