@@ -105,6 +105,7 @@
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/number_reg_submit_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -115,7 +116,8 @@
         android:layout_marginBottom="@dimen/_40sdp"
         android:backgroundTint="@color/main_color"
         android:src="@drawable/ic_white_right_arrow"
-        app:tint="@android:color/white" />
+        app:tint="@android:color/white"
+        android:contentDescription="TODO" />
 
 
 

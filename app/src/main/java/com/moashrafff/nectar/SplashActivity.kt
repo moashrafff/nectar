@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
 import com.moashrafff.nectar.databinding.FragmentSplashBinding
+import com.moashrafff.nectar.views.StartingActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 
@@ -25,7 +26,7 @@ class SplashActivity : AppCompatActivity() {
 
     private suspend fun navigateToResultPage() {
         delay(2000)
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, StartingActivity::class.java)
         startActivity(intent)
         finish()
     }

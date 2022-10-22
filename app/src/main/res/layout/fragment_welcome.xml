@@ -60,7 +60,6 @@
                     android:id="@+id/countryCodeHolder"
                     android:layout_width="75dp"
                     android:layout_height="match_parent"
-                    android:layout_alignParentStart="true"
                     android:fontFamily="@font/gilroy_regular"
                     app:ccp_showFullName="true"
                     app:ccp_showNameCode="true"
@@ -70,7 +69,6 @@
                     android:id="@+id/edit_number"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_alignLeft="@+id/countryCodeHolder"
                     android:layout_marginStart="5dp"
                     android:fontFamily="@font/gilroy_regular"
                     android:inputType="number"
@@ -134,6 +132,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/facebook_btn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
             android:background="@drawable/social_btn_shape"

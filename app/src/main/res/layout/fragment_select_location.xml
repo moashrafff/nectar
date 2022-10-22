@@ -98,12 +98,12 @@
             />
 
         <com.moashrafff.nectar.views.widgets.MainButton
+            android:id="@+id/select_location_submit_btn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
-            android:text="Submit"
-            android:textSize="@dimen/_16ssp"
             android:fontFamily="@font/gilroy_semibold"
-            />
+            android:text="Submit"
+            android:textSize="@dimen/_16ssp" />
 
 
     </LinearLayout>

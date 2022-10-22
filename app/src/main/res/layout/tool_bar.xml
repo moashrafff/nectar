@@ -12,6 +12,7 @@
         android:layout_centerVertical="true"
         android:layout_alignParentStart="true"
         android:padding="@dimen/_5sdp"
+        android:id="@+id/back_btn"
         />
 
     <TextView
