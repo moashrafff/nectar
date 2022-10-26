@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "122525065810",
+    "project_id": "nectar-5119d",
+    "storage_bucket": "nectar-5119d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122525065810:android:0816aa4bf508113832758b",
+        "android_client_info": {
+          "package_name": "com.moashrafff.nectar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122525065810-gov6a0blcekorlhvkdadlgr4d0bpf0a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC02YRkyq1XsDzUu2h9EIpohWRcCnmRZkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122525065810-gov6a0blcekorlhvkdadlgr4d0bpf0a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
