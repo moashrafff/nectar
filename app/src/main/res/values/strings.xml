@@ -2,4 +2,11 @@
     <string name="app_name">Nectar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_your_groceries_nwith_nectar">Get your groceries\nwith nectar</string>
+    <string name="get_your_groceries_welcome_text">Get your groceries\nwith nectar</string>
+    <string name="welcome_background_description">welcome_background</string>
+    <string name="or_connect_with_social_media">Or connect with social media</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="google_icon_description">google_icon_description</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
 </resources>
