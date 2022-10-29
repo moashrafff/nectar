@@ -9,4 +9,5 @@
     <string name="continue_with_google">Continue with Google</string>
     <string name="google_icon_description">google_icon_description</string>
     <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="enter_your_6_digit_code">Enter your 6-digit code</string>
 </resources>

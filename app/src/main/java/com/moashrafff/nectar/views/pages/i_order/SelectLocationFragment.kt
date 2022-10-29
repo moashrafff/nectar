@@ -27,7 +27,7 @@ class SelectLocationFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.selectLocationSubmitBtn.setOnClickListener(View.OnClickListener {
-            showFragment()
+            
         })
 
         binding.locationToolBar.backBtn.setOnClickListener(View.OnClickListener {
@@ -35,9 +35,7 @@ class SelectLocationFragment : Fragment() {
         })
     }
 
-    private fun showFragment (){
-        Navigation.findNavController(binding.root).navigate(R.id.action_selectLocationFragment_to_loginFragment)
-    }
+
 
 
 }

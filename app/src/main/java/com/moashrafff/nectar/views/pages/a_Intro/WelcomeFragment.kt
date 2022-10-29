@@ -27,12 +27,22 @@ class WelcomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.facebookBtn.setOnClickListener(View.OnClickListener {
-            showFragment()
+            navigateToNumber()
+        })
+
+        binding.linearLayout.setOnClickListener(View.OnClickListener {
+            navigateToNumber()
+        })
+
+        binding.welcomeFragmentTv.setOnClickListener(View.OnClickListener {
+            navigateToNumber()
         })
 
     }
 
-    private fun showFragment (){
+
+
+    private fun navigateToNumber (){
         Navigation.findNavController(binding.root).navigate(R.id.action_welcomeFragment_to_numberRegistrationFragment)
     }
 

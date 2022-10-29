@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".views.pages.b_Account.a_sign_up.NumberVerificationFragment">
+    tools:context=".views.pages.b_Account.a_sign_up.NumberFragments.NumberVerificationFragment">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:src="@drawable/login_bg"
         android:scaleType="centerCrop"
         />
@@ -30,7 +30,7 @@
             android:layout_marginHorizontal="@dimen/_15sdp"
             android:layout_marginTop="@dimen/_30sdp"
             android:fontFamily="@font/gilroy_semibold"
-            android:text="Enter your 4-digit code"
+            android:text="@string/enter_your_6_digit_code"
             android:textColor="@color/black"
             android:textSize="@dimen/_20ssp" />
 
@@ -46,12 +46,16 @@
             android:textSize="@dimen/_12ssp" />
 
         <EditText
+            android:id="@+id/num_ver_code_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/_15sdp"
-            android:hint="- - - -"
+            android:hint=" - - - - - -"
             android:maxLines="1"
-            android:textSize="@dimen/_16ssp" />
+            android:textSize="@dimen/_16ssp"
+            android:inputType="number|phone"
+
+            />
 
 
     </LinearLayout>
@@ -71,6 +75,7 @@
         app:tint="@android:color/white" />
 
     <TextView
+        android:id="@+id/resend_code_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Resend Code"
@@ -82,5 +87,14 @@
         android:layout_marginStart="@dimen/_30sdp"
         android:layout_marginBottom="@dimen/_55sdp"
         />
+
+    <ProgressBar
+        android:id="@+id/verification_progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
 
 </RelativeLayout>
